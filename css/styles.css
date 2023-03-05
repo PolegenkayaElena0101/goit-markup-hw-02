@@ -11,7 +11,6 @@ body {
   --hero-footer-background-color: #2e2f42;
   --about-background-color: #f4f4fd;
   --btn-background-color: #404bbf;
-
 }
 
 /* Основная навигация */
@@ -107,12 +106,12 @@ body {
 .features {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 
   color: var(--text-nav-card-color);
 }
-.visually-hidden {
-  hidden;
+.hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -120,7 +119,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
-.features-work {
+
+.features-work-list {
   list-style-type: none;
 }
 .features-text {
@@ -138,7 +138,10 @@ body {
 .work {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+
   color: var(--text-nav-card-color);
 }
 /* Члены команды*/

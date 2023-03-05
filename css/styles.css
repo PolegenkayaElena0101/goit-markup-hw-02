@@ -11,6 +11,7 @@ body {
   --hero-footer-background-color: #2e2f42;
   --about-background-color: #f4f4fd;
   --btn-background-color: #404bbf;
+
 }
 
 /* Основная навигация */
@@ -82,7 +83,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--main-background-color);
 }
 .hero-button {
@@ -110,6 +112,7 @@ body {
   color: var(--text-nav-card-color);
 }
 .visually-hidden {
+  hidden;
   position: absolute;
   white-space: nowrap;
   width: 1px;

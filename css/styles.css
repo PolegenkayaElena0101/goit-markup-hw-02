@@ -89,6 +89,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--link-color);
   color: var(--main-background-color);
 }
@@ -112,12 +113,8 @@ body {
   white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .features-work {
   list-style-type: none;

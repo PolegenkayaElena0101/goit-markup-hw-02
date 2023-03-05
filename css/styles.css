@@ -164,8 +164,8 @@ body {
 .team-work {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  color: var(--text-nav-card-color);
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .special {
   font-size: 16px;

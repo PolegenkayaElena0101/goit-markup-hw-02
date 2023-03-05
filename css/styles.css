@@ -28,7 +28,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--link-color)
+
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
 .visit {
   list-style-type: none;
 }
-.header-contact list {
+.list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

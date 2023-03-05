@@ -149,6 +149,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--text-nav-card-color);
 }
 .about {
@@ -156,6 +159,7 @@ body {
 }
 .our-team {
   list-style-type: none;
+  line-height: 1.11;
 }
 .team-work {
   font-weight: 500;
@@ -166,7 +170,7 @@ body {
 .special {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--main-text-color);
+  letter-spacing: 0.02em;
 }
 
 /*Футер*/

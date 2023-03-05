@@ -20,16 +20,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
 
+  text-transform: uppercase;
   text-decoration: none;
   color: var(--text-nav-card-color);
 }
 
-.header-logo {
+.header-logo link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--link-color);
 }
 .color-logo {
@@ -37,6 +39,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--hero-footer-background-color);
 }
 .color-studio {
   font-family: "Raleway", sans-serif;

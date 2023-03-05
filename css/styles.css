@@ -14,13 +14,22 @@ body {
 }
 
 /* Основная навигация */
-.header-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+.link {
   text-decoration: none;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--text-nav-card-color);
+}
+.color-studio {
   color: var(--text-nav-card-color);
 }
 
@@ -33,21 +42,7 @@ body {
   text-transform: uppercase;
   color: var(--link-color);
 }
-.color-logo {
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.color-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--text-nav-card-color);
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--btn-background-color);

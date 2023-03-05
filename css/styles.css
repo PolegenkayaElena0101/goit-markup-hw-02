@@ -174,7 +174,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-nav-card-color);
+  color: var(--main-text-color);
 }
 
 /*Футер*/
@@ -191,7 +191,7 @@ body {
 /*Портфолио*/
 
 /*Навигационные кнопки после хедера*/
-.navigation-list {
+.navigation list {
   list-style-type: none;
 }
 .nav-btn {
@@ -225,14 +225,14 @@ body {
 .service {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-nav-card-color);
 }
 .service-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }

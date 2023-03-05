@@ -211,6 +211,16 @@ body {
   cursor: pointer;
 }
 /*Наш сервис*/
+
+.our-team-link {
+  text-decoration: none;
+}
+
+.our-team-list {
+  list-style-type: none;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
 .service {
   font-weight: 500;
   font-size: 20px;

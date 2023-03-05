@@ -18,20 +18,20 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
   color: var(--text-nav-card-color);
 }
 
-.header-link {
-  text-decoration: none;
-}
-.header-nav-logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--text-nav-card-color);
-  letter-spacing: 0.33em;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .color-logo {
   color: var(--link-color);
@@ -46,18 +46,18 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--text-nav-card-color);
-  letter-spacing: 0.33em;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--link-color);
+  color: var(--btn-background-color);
 }
 
 .visit {
   list-style-type: none;
 }
-.header-contact {
+.header-contact list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

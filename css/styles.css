@@ -27,27 +27,22 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--text-nav-card-color);
+  color: #4d5ae5;
 }
 .color-studio {
   color: var(--text-nav-card-color);
 }
 
-.header-logo link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--link-color);
+.heder-link {
+  hine-height: 1.5;
+  color: #2e2f42;
 }
 
 .header-link:hover,
 .header-link:focus {
   color: var(--btn-background-color);
 }
-.adress {
+.address list {
   font-style: normal;
 }
 .visit list {
@@ -64,7 +59,7 @@ body {
 
 .header-contact list:hover,
 .header-contact list:focus {
-  color: var(--btn-background-color);
+  color: #404bbf;
 }
 
 .header-item {

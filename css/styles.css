@@ -33,9 +33,10 @@ body {
   color: var(--text-nav-card-color);
 }
 
-.heder-link {
-  hine-height: 1.5;
-  color: #2e2f42;
+.heder-link link {
+  line-height: 1.5;
+
+  color: var(--text-nav-card-color);
 }
 
 .header-link:hover,
@@ -56,9 +57,13 @@ body {
   color: var(--main-text-color);
   text-decoration: none;
 }
+.header-contact link {
+  line-height: 1.5;
+  color: #434455;
+}
 
-.header-contact list:hover,
-.header-contact list:focus {
+.header-contact link:hover,
+.header-contact link:focus {
   color: #404bbf;
 }
 
@@ -173,6 +178,11 @@ body {
 .footer {
   background-color: var(--hero-footer-background-color);
 }
+
+.color-studio studio {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;

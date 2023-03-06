@@ -33,7 +33,7 @@ body {
   color: var(--text-nav-card-color);
 }
 
-.heder-link link {
+.header-link {
   line-height: 1.5;
 
   color: var(--text-nav-card-color);
@@ -43,10 +43,10 @@ body {
 .header-link:focus {
   color: var(--btn-background-color);
 }
-.address list {
+.address-list {
   font-style: normal;
 }
-.visit list {
+.visit {
   list-style-type: none;
   line-height: 1.5;
 }
@@ -56,14 +56,15 @@ body {
   line-height: 1.5;
   color: var(--main-text-color);
   text-decoration: none;
+  font-style: normal;
 }
-.header-contact link {
+.header-contact {
   line-height: 1.5;
   color: #434455;
 }
 
-.header-contact link:hover,
-.header-contact link:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: #404bbf;
 }
 
@@ -179,7 +180,7 @@ body {
   background-color: var(--hero-footer-background-color);
 }
 
-.color-studio studio {
+.studio {
   color: #f4f4fd;
 }
 

@@ -27,7 +27,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #4d5ae5;
+  color: var(--link-color);
 }
 .color-studio {
   color: var(--text-nav-card-color);
@@ -51,7 +51,7 @@ body {
   line-height: 1.5;
 }
 .list {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
@@ -60,12 +60,12 @@ body {
 }
 .header-contact {
   line-height: 1.5;
-  color: #434455;
+  color: var(--main-text-color);
 }
 
 .header-contact:hover,
 .header-contact:focus {
-  color: #404bbf;
+  color: var(--btn-background-color);
 }
 
 .header-item {
@@ -181,7 +181,7 @@ body {
 }
 
 .studio {
-  color: #f4f4fd;
+  color: var(--about-background-color);
 }
 
 .footer-text {
@@ -209,7 +209,7 @@ body {
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--btn-background-color);
-  color: #ffffff;
+  color: var(--main-background-color);
 }
 .nav-btn {
   cursor: pointer;
